@@ -2,6 +2,7 @@ services:
   - type: web
     name: pgAdmin
     runtime: docker
+    region: frankfurt
     plan: free
     envVars:
       - key: PGADMIN_LISTEN_ADDRESS
